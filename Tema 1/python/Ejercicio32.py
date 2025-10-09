@@ -1,5 +1,6 @@
 def raiz_cuadrada(raiz):
-    raiz = n1 * n1
+    raiz = nr * nr
+    return raiz
 
 opcion = int(input("elige una opcion, 1 para la suma, 2 para la resta, 3 para la multiplicacion, 4 para la division o 5 para la raiz cuadrada: "))
 n1 = int(input("introduce un numero: "))
@@ -18,6 +19,7 @@ match opcion:
                 else:
                         print (n1 / n2)
         case 5:
-                print (raiz_cuadrada(raiz))
+                nr = int(input("introduce un numero: "))
+                print (raiz_cuadrada(opcion))
         case _:
                 print("la opcion es incorrecta")
