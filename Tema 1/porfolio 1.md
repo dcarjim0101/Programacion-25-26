@@ -5,6 +5,7 @@ Portafolio: Introducción a la programacion
 
 
 1. Conceptos
+
 - Programación: Creación de instrucciones que una computadora ejecuta para realizar tareas o resolver problemas.
 - Algoritmo: Secuencia finita de pasos ordenados que permiten resolver un problema de manera sistemática.
 - Programar: Escribir instrucciones (código) usando un lenguaje de programación para que la computadora ejecute un algoritmo.
@@ -13,12 +14,14 @@ Portafolio: Introducción a la programacion
 
 
 2. Línea cronológica
+
 - Lenguaje binario: Sistema numérico base 2, que usa oy 1, entendido directamente por el hardware.
 - Lenguaje ensamblador: Lenguaje de bajo nivel más legible que el binario.
 - Lenguaje de alto nivel: Lenguajes más cercanos al lenguaje humano (Python, java, C++)
 
 
 3. Clasificación de los lenguajes:
+
 - Paradigma de programación
 - Imperativa → Método que permite desarrollar programas a través de procedimientos (instrucciones paso a paso).
 - Estructurada o procedural → Organización y la claridad del código a través de un uso sistemático de estructuras de control, como secuencias, selecciones (condicionales) y bucles (iteraciones) (Instrucciones siguiendo).
@@ -33,6 +36,7 @@ Portafolio: Introducción a la programacion
 
 
 4. Elementos y estructura de un programa.
+
 Todo programa incluye:
 
 - Entrada: datos proporcionados por el usuario.
@@ -54,6 +58,7 @@ Todo programa incluye:
 
 
 5. Pseudocódigo y diagramas de flujo
+
 Antes de programar, se recomienda representar la lógica mediante:
 
 - Pseudocódigo: descripción en lenguaje natural de los pasos del programa.
@@ -62,6 +67,7 @@ Antes de programar, se recomienda representar la lógica mediante:
 
 
 6. Tipos de datos y operadores
+
 - Datos: numéricos, booleanos, cadenas, etc.
 
 - Operadores: aritméticos (+, -, *), relacionales (==, !=), lógicos (y, o, not), de asignación (=), pertenencia (in), identidad (is), entre otros.
@@ -70,6 +76,7 @@ Antes de programar, se recomienda representar la lógica mediante:
 
 
 7. Estructuras de control
+
 Permitiremos modificar el flujo de ejecución:
 
 - Secuenciales: ejecución lineal.
@@ -87,6 +94,7 @@ Permitiremos modificar el flujo de ejecución:
 
 
 9. Ejercicios prácticos
+
 Son pseudocódigos, diagramas, códigos en Python y algoritmos.
 
 - Mostrar 100 lineas de un texto introducido por teclado.
