@@ -1,0 +1,9 @@
+numero = [0] * cantidad
+
+for i in range (cantidad):
+    numero[i] = int(input(f"introduce el numero {i}"))
+    
+print("\nlos numeros en orden inverso son: ")
+for i in range (len(numero) - 1, -1, -1):
+    print(numero[i])
+print(numero)
