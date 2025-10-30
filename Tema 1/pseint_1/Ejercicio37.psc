@@ -9,9 +9,11 @@ mientras b <> 0 Hacer
 	si a > b Entonces
 		a <- a - b
 	SiNo
-		b <- a - b
+		b <- b - a
 	FinSi
 FinMientras
+
+escribir a
 
 	
 FinAlgoritmo
