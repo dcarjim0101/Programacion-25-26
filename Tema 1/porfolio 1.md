@@ -101,3 +101,4 @@ Son pseudocódigos, diagramas, códigos en Python y algoritmos.
 - Mostrar si un año es bisiesto o no.
 - Calculadora que sume, reste, multiplique o divida según la elección del usuario.
 - Funcion que indique si un numero introducido por teclado es par o impar.
+
