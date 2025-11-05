@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    <producto id="001">
+        <nombre>Playa de Bolonia (Cádiz)</nombre>
+        <descripcion>Una de las más bonitas es la Playa de Bolonia, en el municipio de Tarifa. Cuenta con casi 4 km de largo y llama la atención por la buena conservación del entorno.</descripcion>
+        <categoria>Playa</categoria>
+        <precio moneda="EUR">35</precio>
+        <imagen url="https://comeamaviaja.com/wp-content/uploads/2020/05/paisajes-naturales-espan%CC%83a_opt.jpg"/>
+    </producto>
+    <producto id="002">
+        <nombre>Parque nacional de Doñana (Huelva)</nombre>
+        <descripcion>Aquí podrás disfrutar de paisajes tan diversos como playas, dunas, pinares y marismas. Además, aquí habitan numerosas aves acuáticas y el lince ibérico. Se puede visitar por libre o gracias a una visita guiada.</descripcion>
+        <categoria>Parque nacional</categoria>
+        <precio moneda="EUR">15</precio>
+        <imagen url="https://comeamaviaja.com/wp-content/uploads/2019/10/don%CC%83ana_opt.jpg"/>
+    </producto>
+    <producto id="003">
+        <nombre>Gruta de las Maravillas (Huelva)</nombre>
+        <descripcion>Esta cueva se encuentra en la localidad de Aracena. Es una cueva enorme descubierta a finales del siglo XIX. Su visita consiste en un recorrido circular por sus salas con lagos de diferentes tamaños y colores.</descripcion>
+        <categoria>Cueva</categoria>
+        <precio moneda="EUR">20</precio>
+        <imagen url="https://comeamaviaja.com/wp-content/uploads/2019/10/grutadelasmaravillas_opt.jpg"/>
+    </producto>
+    <producto id="004">
+        <nombre>Cueva del Gato (Málaga)</nombre>
+        <descripcion>Uno de los puntos más atractivos del lugar es la piscina natural a la que muchos locales llegan para refrescarse durante los meses más cálidos del año.</descripcion>
+        <categoria>Cueva</categoria>
+        <precio moneda="EUR">30</precio>
+        <imagen url="https://comeamaviaja.com/wp-content/uploads/2020/05/parajes-naturales-espan%CC%83a_opt.jpg"/>
+    </producto>
+    <producto id="005">
+        <nombre>Desierto de Tabernas (Almería)</nombre>
+        <descripcion>Está considerado como la única zona desértica propiamente dicha de toda Europa. Las precipitaciones no superan los 250 mm anuales y la temperatura media es superior a 17°C.</descripcion>
+        <categoria>Desierto</categoria>
+        <precio moneda="EUR">10</precio>
+        <imagen url="https://comeamaviaja.com/wp-content/uploads/2020/05/desierto-tabernas_opt.jpg"/>
+    </producto>
+    <producto id="006">
+        <nombre>Parque nacional del Teide (Tenerife)</nombre>
+        <descripcion>Es el pico más alto de España gracias a sus 3.718 m.s.n.m. Visitar el Parque Nacional del Teide es un imprescindible si te encuentras en Tenerife.</descripcion>
+        <categoria>Parque nacional</categoria>
+        <precio moneda="EUR">25</precio>
+        <imagen url="https://comeamaviaja.com/wp-content/uploads/2020/05/TEIDE_opt.jpg"/>
+    </producto>
+</catalogo>
