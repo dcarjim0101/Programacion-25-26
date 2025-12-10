@@ -8,7 +8,7 @@ public class Ejercicio31 {
 	public static void main(String[] args) {
 		int n = 3;
 		for variosSaludos(n, 1) {
-			System.out.println("Hola");
+			System.out.println("Hola"); si
 		}		
 	}
 }
