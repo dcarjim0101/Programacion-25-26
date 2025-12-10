@@ -20,6 +20,4 @@ def iguales(lista1, lista2):
         for i in range(n):
             if lista1[i] != lista2[i]:
                 return False
-            else:
-                return True
     return True
