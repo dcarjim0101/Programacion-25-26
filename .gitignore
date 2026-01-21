@@ -1,15 +1,13 @@
 Tema 1/dagwda.py
 /Tema 3/java/Ejercicios/nbproject/private/
 /Tema 3/java/Ejercicios/build/
+/Tema 4/Ejercicios/eclipse/bin/
 
 # Ignore Java compiled classes and IDE metadata
 *.class
 *.jar
 /.idea/
-.classpath
-.project
 nbproject/private/
-build/
 target/
 # OS
 .DS_Store
