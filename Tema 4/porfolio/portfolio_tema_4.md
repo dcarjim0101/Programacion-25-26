@@ -8,17 +8,17 @@ En el Tema 4 hemos aprendido los conceptos fundamentales de la **Programación O
 
 ## Contenidos Desarrollados
 
-### 1. **Clase Persona** 👤
+### 1. **Clase Persona**
 **Ubicación:** `prog/ud4/ejercicios/Persona.java`
 
 Modela una persona con atributos (nombre, apellido, edad, estatura, sexo) y métodos (saludar, cumplirAños, crecer). Incluye enumeración para el sexo (MASCULINO, FEMENINO, NO_BINARIO) y tres constructores diferentes.
 
-### 2. **Clase Vaca** 🐄
+### 2. **Clase Vaca**
 **Ubicación:** `prog/ud4/ejercicios/Vaca.java`
 
 Modelo simple con atributos (nombre, color, hambre) y métodos (comer, mugir). Introduce los atributos booleanos.
 
-### 3. **Clase Vehiculo** 🚗
+### 3. **Clase Vehiculo**
 **Ubicación:** `prog/ud4/ejercicios3/Vehiculo.java`
 
 Modela un vehículo con matricula, marca, año de fabricación, precio y tipo. Incluye métodos como `esAntiguo()` (retorna true si es anterior a 2016) y `aplicarDescuento()`.
@@ -63,13 +63,13 @@ Tema 4/Ejercicios/eclipse/src/prog/ud4/
 
 ## Habilidades Adquiridas
 
-✅ Creación de clases  
-✅ Definición de atributos y métodos  
-✅ Implementación de constructores múltiples  
-✅ Uso de enumeraciones  
-✅ Instanciación de objetos  
-✅ Acceso a miembros de objetos  
-✅ Compilación y ejecución en Java
+Creación de clases  
+Definición de atributos y métodos  
+Implementación de constructores múltiples  
+Uso de enumeraciones  
+Instanciación de objetos  
+Acceso a miembros de objetos  
+Compilación y ejecución en Java
 
 ---
 
