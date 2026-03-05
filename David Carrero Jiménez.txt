@@ -1,0 +1,71 @@
+/* David Carrero Jiménez*/
+
+package examen;
+
+public enum TipoVehiculo {
+	COCHE, MOTO, FURGONETA;
+}
+
+
+package examen;
+
+public class Vehiculo {
+	String matricula;
+	String marca;
+	int anioFabricacion;
+	float precioDia;
+	TipoVehiculo tipo;
+	
+	Vehiculo(String matricula, String marca, int anioFabricacion, float precioDia, TipoVehiculo tipo) {
+		this.matricula = matricula;
+		this.marca = marca;
+		this.anioFabricacion = anioFabricacion;
+		this.precioDia = precioDia;
+		this.tipo = tipo;
+	}
+	
+	public void mostrarDatos() {
+		System.out.println("la matricula del vehiculo es" + matricula + ", pertenece a la marca " + marca + ", se produjo en el año " + anioFabricacion + ", el precio es de " + precioDia + "€ y pertenece al tipo de vehículo " + tipo + ".");
+	}
+	
+	public boolean esAntiguo() {
+		if (anioFabricacion < 2016)
+			return true;
+		return false;
+	}
+}
+
+
+package examen;
+
+public class Vehiculos {
+
+	public static void main(String[] args) {
+		Vehiculo primero = new Vehiculo("ABC123", "Tesla", 2014, 500, TipoVehiculo.COCHE);
+		System.out.println("Primer vehículo");
+		System.out.println(primero.matricula);
+		System.out.println(primero.marca);
+		System.out.println(primero.anioFabricacion);
+		System.out.println(primero.precioDia);
+		System.out.println(primero.tipo);
+		
+		Vehiculo segundo = new Vehiculo("DEF456", "Seat", 2020, 200, TipoVehiculo.MOTO);
+		System.out.println(" ");
+		System.out.println("Segundo vehículo");
+		System.out.println(segundo.matricula);
+		System.out.println(segundo.marca);
+		System.out.println(segundo.anioFabricacion);
+		System.out.println(segundo.precioDia);
+		System.out.println(segundo.tipo);
+		
+		Vehiculo tercero = new Vehiculo("GHI789", "Mercedes", 2018, 350, TipoVehiculo.FURGONETA);
+		System.out.println(" ");
+		System.out.println("Tercer vehículo");
+		System.out.println(tercero.matricula);
+		System.out.println(tercero.marca);
+		System.out.println(tercero.anioFabricacion);
+		System.out.println(tercero.precioDia);
+		System.out.println(tercero.tipo);
+	}
+
+}

@@ -12,3 +12,4 @@ target/
 # OS
 .DS_Store
 Thumbs.db
+/Tema 3/java/JUnit-SAmple_24/nbproject/private/
