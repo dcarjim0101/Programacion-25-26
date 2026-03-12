@@ -1,8 +1,8 @@
 package prog.ud5.ejercicios12;
 
-public class Perro {
+public class Perro extends Animal{
 	public Perro(String nombre, int edad) {
-		super();
+		super(nombre, edad);
 	}
 	
 	public void mostrarInformacion() {
@@ -13,7 +13,7 @@ public class Perro {
 		
 	}
 	
-	public String moverse(String nombre) {
-		return nombre;
+	public String moverse() {
+		return "anda a 4 patas";
 	}
 }

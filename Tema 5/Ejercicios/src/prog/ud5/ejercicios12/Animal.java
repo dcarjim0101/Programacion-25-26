@@ -1,8 +1,8 @@
 package prog.ud5.ejercicios12;
 
-public class Animal {
-	private String nombre;
-	private int edad;
+public abstract class Animal {
+	protected String nombre;
+	protected int edad;
 	
 	public Animal(String nombre, int edad) {
 		this.nombre = nombre;
@@ -13,11 +13,7 @@ public class Animal {
 		
 	}
 	
-	public void hacerSonido() {
-		
-	}
+	public abstract void hacerSonido();
 	
-	public String moverse() {
-		return nombre;	
-	}
+	public abstract String moverse();
 }
