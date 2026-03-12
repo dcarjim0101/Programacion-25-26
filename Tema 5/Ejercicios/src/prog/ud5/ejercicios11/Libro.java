@@ -13,6 +13,38 @@ public class Libro {
 		this.anioPublicacion = anioPublicacion;
 	}
 	
+	String getTitulo() {
+		return titulo;
+	}
+	
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	
+	String getAutor() {
+		return autor;
+	}
+	
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+	
+	String getIsbn() {
+		return isbn;
+	}
+	
+	public void setIsbn(String isbn) {
+		this.isbn = isbn;
+	}
+	
+	int getAnioPublicacion() {
+		return anioPublicacion;
+	}
+	
+	public void setAnioPublicacion(int anioPublicacion) {
+		this.anioPublicacion = anioPublicacion;
+	}
+	
 	public String toString() {
 		return ("el titulo es " + titulo + "escrito por " + autor + ", " + "con el isbn " + isbn + "y se ha publicado en el año " + anioPublicacion);
 	}
