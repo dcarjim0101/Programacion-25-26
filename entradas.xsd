@@ -1,0 +1,16 @@
+<xs:element name="entrada">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="nombre_completo" type="xs:string"/>
+            <xs:element name="edad">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="18"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="precio" type="xs:decimal"/>
+        </xs:sequence>
+        <xs:attribute name="tipo" type="xs:string" use="required"/>
+    </xs:complexType>
+</xs:element>

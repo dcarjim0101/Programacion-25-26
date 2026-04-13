@@ -1,0 +1,17 @@
+{
+    [
+        "evento id" = "E-01"
+            "artista" = "Rapsusklei"
+            "aforo_completo" = "true"
+            "entradas_vendidas" = '5000'
+    ]
+}
+
+{
+    [
+        "evento id" = "E-02"
+            "artista" = "Reclaim your city 687"
+            "aforo_completo" = "false"
+            "entradas_vendidas" = '3200'
+    ]
+}

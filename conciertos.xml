@@ -1,0 +1,12 @@
+<eventos>
+    <evento id="E-01">
+        <artista>Rapsusklei</artista>
+        <aforo_completo>true</aforo_completo>
+        <entradas_vendidas>5000</entradas_vendidas>
+    </evento>
+    <evento id="E-02">
+        <artista>Reclaim your city 687</artista>
+        <aforo_completo>false</aforo_completo>
+        <entradas_vendidas>3200</entradas_vendidas>
+    </evento>
+</eventos>

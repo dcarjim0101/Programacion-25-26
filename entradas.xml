@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="entradas.xsd" type="text/xsl"?>
+<festival>
+    <entrada tipo="required">
+        <nombre_completo>Juan Pérez</nombre_completo>
+        <edad>18</edad>
+        <precio>120,50</precio>
+    </entrada>
+</festival>
+
+<!-- El xml debe estar definido y conectado al xsd.-->
+<!-- En el xml, hay que poner en la etiqueta nombre, nombre_completo, cómo aparece en el xsd.-->
+<!-- En el xml, en el atributo tipo de la etiqueta entrada, pone "VIP" y debe ser "required".-->
+<!-- En el xml, en la etiqueta <edad> hay que poner 18, para que cumpla con el xsd.-->
