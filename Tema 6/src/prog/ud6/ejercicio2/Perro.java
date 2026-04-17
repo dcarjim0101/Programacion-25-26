@@ -1,4 +1,4 @@
-package prog.ud5.ejercicio2;
+package prog.ud6.ejercicio2;
 
 public class Perro extends AnimalBase implements Animal{
 
