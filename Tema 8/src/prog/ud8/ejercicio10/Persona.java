@@ -51,7 +51,7 @@ class Persona implements Comparable<Persona> {
         return this.nombre.compareTo(p.nombre);
     }
 
-    // 4. & 6.
+    // 4. , 6.
     @Override
     public boolean equals(Object obj) {
 

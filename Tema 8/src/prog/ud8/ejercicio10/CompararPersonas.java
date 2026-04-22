@@ -9,6 +9,7 @@ public class CompararPersonas implements Comparator<Persona>{
 	        // Compara edades
 	        return Integer.compare(p1.getEdad(), p2.getEdad());
 	 	}
+	 	
 	     // 2.
         @Override
 	    public int compare(Persona p1, Persona p2) {
@@ -47,5 +48,5 @@ public class CompararPersonas implements Comparator<Persona>{
         }
 
         return resultado;
-}
+		}
 }

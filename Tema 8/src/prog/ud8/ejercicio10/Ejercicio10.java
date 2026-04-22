@@ -16,7 +16,7 @@ public class Ejercicio10{
 		
 		// 3. 
 		SortedSet<Persona> personasCompleto =
-		        new TreeSet<>(new PersonaCompletoComparator());
+		        new TreeSet<>(new CompararPersonas());
 		personasCompleto.add(new Persona("Ana", "García", 30));
 		personasCompleto.add(new Persona("Pedro", "García", 20));
 		personasCompleto.add(new Persona("Ana", "García", 25));
