@@ -10,17 +10,17 @@ Bienvenido a mi portfolio de programación. Aquí encontrarás todos los ejercic
 
 ## 📚 Contenidos del Repositorio
 
-| Tema | Contenido | Estado |
-|------|-----------|--------|
-| **Tema 1** | Introducción a la Programación | ✅ Completado |
-| **Tema 2** | Estructura de Datos y Algoritmos | ✅ Completado |
-| **Tema 3** | Programación Orientada a Objetos (Java) | ✅ Completado |
-| **Tema 4** | Interfaces Gráficas y Eventos | ✅ Completado |
-| **Tema 5** | Acceso a Datos | 🔄 En progreso |
-| **Tema 6** | Programación de Servicios | ⏳ Pendiente |
-| **Tema 7** | Programación Multihebra | ⏳ Pendiente |
-| **Tema 8** | Patrones de Diseño | ⏳ Pendiente |
-| **Tema Practicas** | Prácticas de Empresa | ✅ Completado |
+| Tema | Contenido |
+|------|-----------|
+| **Tema 1** | Introducción a la Programación |
+| **Tema 2** | Estructura de Datos y Algoritmos |
+| **Tema 3** | Programación Orientada a Objetos (Java) |
+| **Tema 4** | Interfaces Gráficas y Eventos |
+| **Tema 5** | Acceso a Datos |
+| **Tema 6** | Programación de Servicios |
+| **Tema 7** | Programación Multihebra |
+| **Tema 8** | Patrones de Diseño |
+| **Tema Practicas** | Prácticas de Empresa |
 
 ---
 
@@ -95,8 +95,6 @@ Bienvenido a mi portfolio de programación. Aquí encontrarás todos los ejercic
 
 **Carpeta**: [`Tema 5/`](Tema%205/)
 
-**Estado**: En progreso
-
 ---
 
 ### 📁 Tema 6: Programación de Servicios
@@ -104,8 +102,6 @@ Bienvenido a mi portfolio de programación. Aquí encontrarás todos los ejercic
 **Descripción**: Creación de servicios web, API REST y SOAP.
 
 **Carpeta**: [`Tema 6/`](Tema%206/)
-
-**Estado**: Pendiente
 
 ---
 
@@ -115,8 +111,6 @@ Bienvenido a mi portfolio de programación. Aquí encontrarás todos los ejercic
 
 **Carpeta**: [`Tema 7/`](Tema%207/)
 
-**Estado**: Pendiente
-
 ---
 
 ### 📁 Tema 8: Patrones de Diseño
@@ -125,8 +119,6 @@ Bienvenido a mi portfolio de programación. Aquí encontrarás todos los ejercic
 
 **Carpeta**: [`Tema 8/`](Tema%208/)
 
-**Estado**: Pendiente
-
 ---
 
 ### 📁 Tema Practicas: Prácticas de Empresa
@@ -134,8 +126,6 @@ Bienvenido a mi portfolio de programación. Aquí encontrarás todos los ejercic
 **Descripción**: Prácticas realizadas en empresa externa.
 
 **Carpeta**: [`Tema%20practicas/`](Tema%20practicas/)
-
-**Estado**: Completado
 
 ---
 
