@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Programación - David Carrero Jiménez</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #fff;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid #4a9fff;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #4a9fff;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            color: #aaa;
+        }
+        .status {
+            display: inline-block;
+            background: #28a745;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-top: 15px;
+        }
+        .status.pending { background: #ffc107; color: #000; }
+        .status.in-progress { background: #17a2b8; }
+        
+        section {
+            margin: 30px 0;
+            padding: 25px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 10px;
+        }
+        h2 {
+            color: #4a9fff;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #333;
+        }
+        .theme {
+            margin: 20px 0;
+            padding: 20px;
+            background: rgba(0,0,0,0.3);
+            border-radius: 8px;
+            border-left: 4px solid #4a9fff;
+        }
+        .theme h3 {
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        .theme p {
+            color: #ccc;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        .folder-link {
+            display: inline-block;
+            background: #4a9fff;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+        .folder-link:hover {
+            background: #3a8fef;
+        }
+        .exercises {
+            margin-top: 15px;
+        }
+        .exercises a {
+            display: inline-block;
+            color: #aaa;
+            text-decoration: none;
+            margin: 5px 10px 5px 0;
+            padding: 5px 12px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 4px;
+            font-size: 0.85em;
+            transition: all 0.3s;
+        }
+        .exercises a:hover {
+            background: #4a9fff;
+            color: #fff;
+        }
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .tech {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .tech-icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+            border-top: 1px solid #333;
+            color: #666;
+        }
+        footer a {
+            color: #4a9fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 Portfolio de Programación</h1>
+            <p class="subtitle">David Carrero Jiménez - Curso 2025/26</p>
+            <span class="status">Repositorio Activo</span>
+        </header>
+
+        <section>
+            <h2>📚 Temas del Curso</h2>
+            
+            <div class="theme">
+                <h3>📁 Tema 1: Introducción a la Programación</h3>
+                <p>Fundamentos de programación: pseudocódigo, diagramas de flujo, tipos de datos, operadores y estructuras de control básicas.</p>
+                <a href="Tema%201/" class="folder-link">📂 Ver Carpeta</a>
+                <div class="exercises">
+                    <a href="Tema%201/porfolio%201.md">📄 Portfolio teórico</a>
+                    <a href="Tema%201/python/holamundo_funcion.py">holamundo_funcion.py</a>
+                    <a href="Tema%201/python/Ejercicio8.py">Ejercicio8.py</a>
+                    <a href="Tema%201/python/Ejercicio16-if.py">Ejercicio16-if.py</a>
+                    <a href="Tema%201/python/Ejercicio19-for.py">Ejercicio19-for.py</a>
+                    <a href="Tema%201/python/Ejercicio20-while.py">Ejercicio20-while.py</a>
+                </div>
+            </div>
+
+            <div class="theme">
+                <h3>📁 Tema 2: Estructura de Datos y Algoritmos</h3>
+                <p>Profundización en algoritmos de búsqueda, ordenación, gestión de archivos y estructuras de datos complejas.</p>
+                <a href="Tema%202/" class="folder-link">📂 Ver Carpeta</a>
+                <div class="exercises">
+                    <a href="Tema%202/Proyecto%20UD2.py">📦 Proyecto UD2</a>
+                    <a href="Tema%202/python/busqueda_binaria.py">busqueda_binaria.py</a>
+                    <a href="Tema%202/python/Ejercicio%202.py">Ejercicio 2.py</a>
+                    <a href="Tema%202/python/Ejercicio%206.py">Ejercicio 6.py</a>
+                    <a href="Tema%202/python/Ejercicio%207.py">Ejercicio 7.py</a>
+                    <a href="Tema%202/python/Ejercicio%208.py">Ejercicio 8.py</a>
+                    <a href="Tema%202/python/Ejercicio%209.py">Ejercicio 9.py</a>
+                    <a href="Tema%202/python/Ejercicio10.py">Ejercicio10.py</a>
+                    <a href="Tema%202/refuerzo/ej1refuerzo.py">refuerzo/ej1refuerzo.py</a>
+                </div>
+            </div>
+
+            <div class="theme">
+                <h3>📁 Tema 3: Programación Orientada a Objetos (Java)</h3>
+                <p>POO con Java: clases, objetos, herencia, polimorfismo, encapsulamiento y patrones de diseño básicos.</p>
+                <a href="Tema%203/" class="folder-link">📂 Ver Carpeta</a>
+                <div class="exercises">
+                    <a href="Tema%203/java/holamundo.java">holamundo.java</a>
+                    <a href="Tema%203/java/holahora.java">holahora.java</a>
+                    <a href="Tema%203/java/ejercicio1.java">ejercicio1.java</a>
+                </div>
+            </div>
+
+            <div class="theme">
+                <h3>📁 Tema 4: Interfaces Gráficas y Eventos</h3>
+                <p>Creación de interfaces gráficas de usuario (GUI) usando Java Swing y AWT, manejo de eventos.</p>
+                <a href="Tema%204/" class="folder-link">📂 Ver Carpeta</a>
+                <div class="exercises">
+                    <a href="Tema%204/porfolio/portfolio_tema_4.md">📄 Portfolio Tema 4</a>
+                </div>
+            </div>
+
+            <div class="theme">
+                <h3>📁 Tema 5: Acceso a Datos</h3>
+                <p>Conexión a bases de datos, JDBC, gestión de archivos y serialización de objetos.</p>
+                <a href="Tema%205/" class="folder-link">📂 Ver Carpeta</a>
+                <span class="status in-progress">En Progreso</span>
+            </div>
+
+            <div class="theme">
+                <h3>📁 Tema 6: Programación de Servicios</h3>
+                <p>Creación de servicios web, API REST y SOAP.</p>
+                <a href="Tema%206/" class="folder-link">📂 Ver Carpeta</a>
+                <span class="status pending">Pendiente</span>
+            </div>
+
+            <div class="theme">
+                <h3>📁 Tema 7: Programación Multihebra</h3>
+                <p>Programación concurrente, hilos y sincronización.</p>
+                <a href="Tema%207/" class="folder-link">📂 Ver Carpeta</a>
+                <span class="status pending">Pendiente</span>
+            </div>
+
+            <div class="theme">
+                <h3>📁 Tema 8: Patrones de Diseño</h3>
+                <p>Patrones de diseño software: Singleton, Factory, Observer, etc.</p>
+                <a href="Tema%208/" class="folder-link">📂 Ver Carpeta</a>
+                <span class="status pending">Pendiente</span>
+            </div>
+
+            <div class="theme">
+                <h3>📁 Tema Practicas: Prácticas de Empresa</h3>
+                <p>Prácticas realizadas en empresa externa.</p>
+                <a href="Tema%20practicas/" class="folder-link">📂 Ver Carpeta</a>
+                <span class="status">Completado</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>🛠️ Tecnologías</h2>
+            <div class="tech-grid">
+                <div class="tech">
+                    <div class="tech-icon">🐍</div>
+                    <div>Python</div>
+                </div>
+                <div class="tech">
+                    <div class="tech-icon">☕</div>
+                    <div>Java</div>
+                </div>
+                <div class="tech">
+                    <div class="tech-icon">🗄️</div>
+                    <div>JDBC</div>
+                </div>
+                <div class="tech">
+                    <div class="tech-icon">📊</div>
+                    <div>Git</div>
+                </div>
+                <div class="tech">
+                    <div class="tech-icon">⚙️</div>
+                    <div>Eclipse</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>📊 Estadísticas</h2>
+            <p>• <strong>9 carpetas</strong> de temas principales</p>
+            <p>• <strong>2 lenguajes</strong>: Python, Java</p>
+            <p>• <strong>+50 ejercicios</strong> prácticos</p>
+        </section>
+
+        <footer>
+            <p>📧 Contacto: <a href="mailto:david.carrero.jimenez@educa.jcyl.es">david.carrero.jimenez@educa.jcyl.es</a></p>
+            <p>🐙 GitHub: <a href="https://github.com/dcarjim0101">github.com/dcarjim0101</a></p>
+            <p style="margin-top: 20px; font-size: 0.9em;">© 2026 David Carrero Jiménez - Programación 25/26</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,8 +1,14 @@
-# Programacion - Curso 2025/26
+# 🎓 Programacion - Curso 2025/26
 
-Repositorio con los ejercicios de la Unidad Didáctica 1 (UD1) y otras prácticas.
+Repositorio con los ejercicios de programación del ciclo formativo.
 
-Estructura principal:
+## 📱 Portfolio Online
+
+**[Ver Portfolio Completo](https://dcarjim0101.github.io/Programacion-25-26/)**
+
+---
+
+## 📚 Contenidos
 - `Tema 1/` : ejercicios y recursos de la unidad 1.
   - `Tema 1/python/` : scripts en Python (submódulo).
 
