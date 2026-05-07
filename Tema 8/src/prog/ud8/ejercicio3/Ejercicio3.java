@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package prog.ud8.ejercicio3;
 
 import java.util.List;
@@ -112,5 +111,4 @@ public class Ejercicio3 {
         }
     }
   
->>>>>>> 2c53104314bc734b9ee76ccd19fbef58a5f278c0
 }
