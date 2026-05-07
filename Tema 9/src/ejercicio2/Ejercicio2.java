@@ -14,13 +14,13 @@ public class Ejercicio2 {
         System.out.println("He escrito en el archivo... ¿o no?");
         
         // El programa se queda esperando aquí para que no termine
-        Thread.sleep(1000); // Espera 10 segundos
+        Thread.sleep(3000); // Espera 3 segundos
         
         // No hemos puesto ni flush() ni close()
         
-        System.out.close();
+        escritor.close(); // aqui lo cierro para que cree el archivo y escriba en el
     }
 }
 
 // No se ha escrito nada porque no encuentra el archivo
-// Lo arreglaria creando un archivo en la carpeta donde está la actividad
+// Lo arreglaria escribiendo cerrando el escritor con .close
